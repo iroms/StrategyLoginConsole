@@ -1,0 +1,21 @@
+{
+    "name": "iroms/strategy-login-console",
+    "description": "Otus exec 15 part2",
+    "type": "library",
+    "require": {
+        "symfony/console": "^4.1",
+        "iroms/slogin": "^1.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iroms",
+            "email": "arvl@bk.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Iroms\\": "src"
+        }
+    }
+}
